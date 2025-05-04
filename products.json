@@ -1,0 +1,582 @@
+{
+    "Equity": {
+      "Large Cap": [
+        {
+          "id": 1,
+          "name": "Equity Fund A",
+          "percentage": 35,
+          "amount": 5000,
+          "return": 8.5,
+          "assetClass": "Equity",
+          "pros": "Diversified portfolio, stable growth",
+          "cons": "Moderate risk, market volatility",
+          "liquidity": "High",
+          "risk": "Moderate"
+        },
+        {
+          "id": 2,
+          "name": "Equity Fund B",
+          "percentage": 35,
+          "amount": 3000,
+          "return": 7.2,
+          "assetClass": "Equity",
+          "pros": "Low management fees, broad exposure",
+          "cons": "Lower returns in a bear market",
+          "liquidity": "High",
+          "risk": "Low"
+        },
+        {
+          "id": 3,
+          "name": "Large Cap Stock C",
+          "percentage": 35,
+          "amount": 1000,
+          "return": 12.0,
+          "assetClass": "Equity",
+          "pros": "High return potential, large companies",
+          "cons": "High volatility, exposure to market downturns",
+          "liquidity": "High",
+          "risk": "High"
+        }
+      ],
+      "Mid Cap": [
+        {
+          "id": 4,
+          "name": "Mid Cap Fund X",
+          "percentage": 25,
+          "amount": 4000,
+          "return": 10.5,
+          "assetClass": "Equity",
+          "pros": "Balanced risk and return, growth potential",
+          "cons": "Moderate volatility, limited stability",
+          "liquidity": "High",
+          "risk": "High"
+        },
+        {
+          "id": 5,
+          "name": "Mid Cap Stock Y",
+          "percentage": 25,
+          "amount": 2000,
+          "return": 9.0,
+          "assetClass": "Equity",
+          "pros": "Strong growth potential, smaller market capitalization",
+          "cons": "Higher volatility, economic sensitivity",
+          "liquidity": "Moderate",
+          "risk": "Moderate"
+        },
+        {
+          "id": 6,
+          "name": "Mid Cap Fund Z",
+          "percentage": 25,
+          "amount": 2500,
+          "return": 8.0,
+          "assetClass": "Equity",
+          "pros": "Diversified risk, stable growth",
+          "cons": "Moderate returns, market fluctuations",
+          "liquidity": "High",
+          "risk": "Moderate"
+        }
+      ],
+      "Small Cap": [
+        {
+          "id": 7,
+          "name": "Small Cap Stock P",
+          "percentage": 15,
+          "amount": 1500,
+          "return": 15.0,
+          "assetClass": "Equity",
+          "pros": "High growth potential, early-stage opportunities",
+          "cons": "Very high risk, lack of liquidity",
+          "liquidity": "Low",
+          "risk": "Very High"
+        },
+        {
+          "id": 8,
+          "name": "Small Cap Fund Q",
+          "percentage": 15,
+          "amount": 2000,
+          "return": 13.0,
+          "assetClass": "Equity",
+          "pros": "Potential for rapid growth, early-stage investments",
+          "cons": "Extreme volatility, limited history",
+          "liquidity": "Low",
+          "risk": "High"
+        },
+        {
+          "id": 9,
+          "name": "Small Cap ETF R",
+          "percentage": 15,
+          "amount": 1800,
+          "return": 14.5,
+          "assetClass": "Equity",
+          "pros": "Diversified risk, exposure to multiple small companies",
+          "cons": "Unpredictable returns, highly volatile",
+          "liquidity": "High",
+          "risk": "Very High"
+        }
+      ]
+    },
+    "Fixed Income": {
+      "Gov. Bonds": [
+        {
+          "id": 10,
+          "name": "Government Bond A",
+          "percentage": 25,
+          "amount": 10000,
+          "return": 4.0,
+          "assetClass": "Fixed Income",
+          "pros": "Low risk, government-backed",
+          "cons": "Lower returns, inflation impact",
+          "liquidity": "Low",
+          "risk": "Low"
+        },
+        {
+          "id": 11,
+          "name": "Government Bond B",
+          "percentage": 25,
+          "amount": 15000,
+          "return": 3.5,
+          "assetClass": "Fixed Income",
+          "pros": "Stable returns, tax benefits",
+          "cons": "Lower growth, long-term commitment",
+          "liquidity": "Low",
+          "risk": "Low"
+        },
+        {
+          "id": 12,
+          "name": "Government Bond C",
+          "percentage": 25,
+          "amount": 12000,
+          "return": 4.2,
+          "assetClass": "Fixed Income",
+          "pros": "Guaranteed returns, safe investment",
+          "cons": "Lower yield in low-interest rates",
+          "liquidity": "Low",
+          "risk": "Low"
+        }
+      ],
+      "Corp. Bonds": [
+        {
+          "id": 13,
+          "name": "Corporate Bond A",
+          "percentage": 20,
+          "amount": 8000,
+          "return": 5.0,
+          "assetClass": "Fixed Income",
+          "pros": "Higher returns than government bonds",
+          "cons": "Credit risk, issuer risk",
+          "liquidity": "Moderate",
+          "risk": "Moderate"
+        },
+        {
+          "id": 14,
+          "name": "Corporate Bond B",
+          "percentage": 20,
+          "amount": 10000,
+          "return": 6.2,
+          "assetClass": "Fixed Income",
+          "pros": "Good yields, stable income",
+          "cons": "Issuer credit risk, price fluctuations",
+          "liquidity": "Moderate",
+          "risk": "Moderate"
+        },
+        {
+          "id": 15,
+          "name": "Corporate Bond C",
+          "percentage": 20,
+          "amount": 12000,
+          "return": 5.5,
+          "assetClass": "Fixed Income",
+          "pros": "Stable returns, lower correlation with stocks",
+          "cons": "Moderate risk, potential interest rate sensitivity",
+          "liquidity": "Moderate",
+          "risk": "Moderate"
+        }
+      ],
+      "Fixed Deposit": [
+        {
+          "id": 16,
+          "name": "Fixed Deposit A",
+          "percentage": 15,
+          "amount": 5000,
+          "return": 6.0,
+          "assetClass": "Fixed Income",
+          "pros": "Guaranteed returns, very low risk",
+          "cons": "Low returns, locked-in funds",
+          "liquidity": "Low",
+          "risk": "Low"
+        },
+        {
+          "id": 17,
+          "name": "Fixed Deposit B",
+          "percentage": 15,
+          "amount": 7000,
+          "return": 5.5,
+          "assetClass": "Fixed Income",
+          "pros": "Safe investment, fixed returns",
+          "cons": "Lower growth potential",
+          "liquidity": "Low",
+          "risk": "Low"
+        },
+        {
+          "id": 18,
+          "name": "Fixed Deposit C",
+          "percentage": 15,
+          "amount": 10000,
+          "return": 6.2,
+          "assetClass": "Fixed Income",
+          "pros": "Guaranteed returns, safe",
+          "cons": "Long-term lock-in period, low returns",
+          "liquidity": "Low",
+          "risk": "Low"
+        }
+      ]
+    },
+    "Real Estate": {
+      "REITs": [
+        {
+          "id": 19,
+          "name": "REIT A",
+          "percentage": 20,
+          "amount": 5000,
+          "return": 7.0,
+          "assetClass": "Real Estate",
+          "pros": "Diversified property investments, passive income",
+          "cons": "Market risk, economic downturns",
+          "liquidity": "Moderate",
+          "risk": "Moderate"
+        },
+        {
+          "id": 20,
+          "name": "REIT B",
+          "percentage": 20,
+          "amount": 10000,
+          "return": 6.5,
+          "assetClass": "Real Estate",
+          "pros": "Steady income, lower volatility",
+          "cons": "Property market sensitivity",
+          "liquidity": "Moderate",
+          "risk": "Low"
+        },
+        {
+          "id": 21,
+          "name": "REIT C",
+          "percentage": 20,
+          "amount": 12000,
+          "return": 7.5,
+          "assetClass": "Real Estate",
+          "pros": "Good dividend yields, steady growth",
+          "cons": "Risk of market decline, interest rate sensitivity",
+          "liquidity": "Moderate",
+          "risk": "Moderate"
+        }
+      ],
+      "Residential Property": [
+        {
+          "id": 22,
+          "name": "Residential Property A",
+          "percentage": 20,
+          "amount": 500000,
+          "return": 12.0,
+          "assetClass": "Real Estate",
+          "pros": "High returns, potential for capital appreciation",
+          "cons": "High initial investment, low liquidity",
+          "liquidity": "Low",
+          "risk": "High"
+        },
+        {
+          "id": 23,
+          "name": "Residential Property B",
+          "percentage": 20,
+          "amount": 600000,
+          "return": 10.0,
+          "assetClass": "Real Estate",
+          "pros": "Steady rental income, potential for appreciation",
+          "cons": "Requires maintenance, high upfront cost",
+          "liquidity": "Low",
+          "risk": "High"
+        },
+        {
+          "id": 24,
+          "name": "Residential Property C",
+          "percentage": 20,
+          "amount": 700000,
+          "return": 9.0,
+          "assetClass": "Real Estate",
+          "pros": "Steady rental income, appreciation potential",
+          "cons": "Risk of vacancies, high initial investment",
+          "liquidity": "Low",
+          "risk": "High"
+        }
+      ],
+      "Commercial Property": [
+        {
+          "id": 25,
+          "name": "Commercial Property A",
+          "percentage": 15,
+          "amount": 1000000,
+          "return": 8.5,
+          "assetClass": "Real Estate",
+          "pros": "Long-term rental income, capital appreciation",
+          "cons": "High capital requirement, property management",
+          "liquidity": "Low",
+          "risk": "Moderate"
+        },
+        {
+          "id": 26,
+          "name": "Commercial Property B",
+          "percentage": 15,
+          "amount": 1200000,
+          "return": 9.0,
+          "assetClass": "Real Estate",
+          "pros": "Strong rental yields, appreciation",
+          "cons": "Tenant risk, high upfront costs",
+          "liquidity": "Low",
+          "risk": "Moderate"
+        },
+        {
+          "id": 27,
+          "name": "Commercial Property C",
+          "percentage": 15,
+          "amount": 1500000,
+          "return": 9.5,
+          "assetClass": "Real Estate",
+          "pros": "High income potential, prime location",
+          "cons": "Management issues, economic sensitivity",
+          "liquidity": "Low",
+          "risk": "Moderate"
+        }
+      ]
+    },
+        "Commodities": {
+          "Precious metals": [
+            {
+              "id": 1,
+              "name": "Gold ETF",
+              "percentage": 40,
+              "amount": 40000,
+              "return": "7%",
+              "assetClass": "Commodities",
+              "pros": "Easy liquidity, Hedge against inflation",
+              "cons": "Highly volatile, Dependent on gold prices",
+              "liquidity": "High",
+              "risk": "Medium"
+            },
+            {
+              "id": 2,
+              "name": "Silver ETF",
+              "percentage": 35,
+              "amount": 35000,
+              "return": "6%",
+              "assetClass": "Commodities",
+              "pros": "Affordable entry point, Hedge against inflation",
+              "cons": "Fluctuating market prices, Limited growth potential",
+              "liquidity": "High",
+              "risk": "Medium"
+            },
+            {
+              "id": 3,
+              "name": "Gold Mining Stocks",
+              "percentage": 25,
+              "amount": 25000,
+              "return": "8%",
+              "assetClass": "Commodities",
+              "pros": "Potential for high returns, Diversified asset",
+              "cons": "Volatile prices, Mining risks",
+              "liquidity": "Medium",
+              "risk": "High"
+            }
+          ],
+          "Energy": [
+            {
+              "id": 1,
+              "name": "Oil ETFs",
+              "percentage": 50,
+              "amount": 50000,
+              "return": "5%",
+              "assetClass": "Commodities",
+              "pros": "Diversified exposure, Hedge against energy price swings",
+              "cons": "Market volatility, Environmental concerns",
+              "liquidity": "High",
+              "risk": "Medium"
+            },
+            {
+              "id": 2,
+              "name": "Natural Gas ETF",
+              "percentage": 30,
+              "amount": 30000,
+              "return": "4%",
+              "assetClass": "Commodities",
+              "pros": "Exposure to natural gas market, Low entry cost",
+              "cons": "Price fluctuations, Climate change policies",
+              "liquidity": "High",
+              "risk": "Medium"
+            },
+            {
+              "id": 3,
+              "name": "Energy Mutual Fund",
+              "percentage": 20,
+              "amount": 20000,
+              "return": "6%",
+              "assetClass": "Commodities",
+              "pros": "Diversified energy exposure, Professional management",
+              "cons": "Management fees, Less control over investments",
+              "liquidity": "Medium",
+              "risk": "Low"
+            }
+          ],
+          "Agriculture": [
+            {
+              "id": 1,
+              "name": "Agriculture ETFs",
+              "percentage": 60,
+              "amount": 60000,
+              "return": "5%",
+              "assetClass": "Commodities",
+              "pros": "Diverse agricultural exposure, Passive investment",
+              "cons": "Weather-related risks, Price fluctuations",
+              "liquidity": "High",
+              "risk": "Medium"
+            },
+            {
+              "id": 2,
+              "name": "Agricultural Stocks",
+              "percentage": 30,
+              "amount": 30000,
+              "return": "7%",
+              "assetClass": "Commodities",
+              "pros": "Potential for growth, Inflation hedge",
+              "cons": "Market risk, Crop production volatility",
+              "liquidity": "Medium",
+              "risk": "High"
+            },
+            {
+              "id": 3,
+              "name": "Agriculture Mutual Funds",
+              "percentage": 10,
+              "amount": 10000,
+              "return": "4%",
+              "assetClass": "Commodities",
+              "pros": "Diversification, Low entry cost",
+              "cons": "Management fees, Less flexibility",
+              "liquidity": "Medium",
+              "risk": "Low"
+            }
+          ]
+        },
+        "Cash & Equivalents": {
+          "Liquid mutual fund": [
+            {
+              "id": 1,
+              "name": "Equity Liquid Fund",
+              "percentage": 60,
+              "amount": 60000,
+              "return": "5%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Low risk, Liquidity",
+              "cons": "Low returns, Market dependency",
+              "liquidity": "High",
+              "risk": "Low"
+            },
+            {
+              "id": 2,
+              "name": "Debt Liquid Fund",
+              "percentage": 40,
+              "amount": 40000,
+              "return": "4%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Stable returns, Safe investment",
+              "cons": "Low yield, Sensitive to interest rates",
+              "liquidity": "High",
+              "risk": "Low"
+            },
+            {
+              "id": 3,
+              "name": "Hybrid Liquid Fund",
+              "percentage": 30,
+              "amount": 30000,
+              "return": "6%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Balanced risk, Stable returns",
+              "cons": "Market sensitivity, Lower growth",
+              "liquidity": "High",
+              "risk": "Low"
+            }
+          ],
+          "Savings account": [
+            {
+              "id": 1,
+              "name": "Basic Savings Account",
+              "percentage": 100,
+              "amount": 10000,
+              "return": "3%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Low risk, Easy access",
+              "cons": "Low returns, Inflation erosion",
+              "liquidity": "High",
+              "risk": "Low"
+            },
+            {
+              "id": 2,
+              "name": "High Interest Savings Account",
+              "percentage": 100,
+              "amount": 15000,
+              "return": "4%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Higher returns, Low risk",
+              "cons": "Limited liquidity, Minimum balance requirement",
+              "liquidity": "High",
+              "risk": "Low"
+            },
+            {
+              "id": 3,
+              "name": "Fixed Deposit Linked Savings",
+              "percentage": 100,
+              "amount": 20000,
+              "return": "5%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Higher returns, Safety",
+              "cons": "Penalties for early withdrawal",
+              "liquidity": "Medium",
+              "risk": "Low"
+            }
+          ],
+          "T - Bill": [
+            {
+              "id": 1,
+              "name": "1-year T-bill",
+              "percentage": 100,
+              "amount": 25000,
+              "return": "6%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Risk-free, Government-backed",
+              "cons": "Low returns, Lock-in period",
+              "liquidity": "Medium",
+              "risk": "Low"
+            },
+            {
+              "id": 2,
+              "name": "5-year T-bill",
+              "percentage": 100,
+              "amount": 35000,
+              "return": "6.5%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Stable returns, Safe investment",
+              "cons": "Low returns, Longer lock-in",
+              "liquidity": "Low",
+              "risk": "Low"
+            },
+            {
+              "id": 3,
+              "name": "10-year T-bill",
+              "percentage": 100,
+              "amount": 50000,
+              "return": "7%",
+              "assetClass": "Cash & Equivalents",
+              "pros": "Risk-free, Guaranteed returns",
+              "cons": "No liquidity, Long-term commitment",
+              "liquidity": "Low",
+              "risk": "Low"
+            }
+          ]
+        }
+      }

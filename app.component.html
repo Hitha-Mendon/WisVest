@@ -1,0 +1,54 @@
+<div class="container">
+  <!-- Header -->
+  <h1 class="title">📊 Recommended Portfolio</h1>
+  <br>
+  <br>
+  <div class="charts">
+    <!-- Static Asset Class Pie Chart -->
+    <div class="chart-box">
+      <canvas baseChart
+        [data]="{
+          labels: assetClassChartLabels,
+          datasets: [{ data: assetClassChartData,
+            backgroundColor: assetClassChartColors,
+            hoverBackgroundColor: ['#2980b9', '#c0392b'],
+           }],
+        }"
+        [type]="pieChartType"
+        [options]="pieChartOptions">
+      </canvas>
+      <p class="chart-label">Total Investment Amount = ₹100000</p>
+    </div>
+  
+    <!-- Sub-Category Pie Chart (Dynamic) -->
+    <div class="chart-box">
+      <app-chart [subClasses]="subClasses"></app-chart>
+      <p class="chart-label">{{ selectedAssetClass }} Sub-Category Distribution</p>
+    </div>
+  </div>
+  
+  <!-- Asset Class Buttons -->
+  <section class="selector-section">
+    <h2>Select Asset Class</h2>
+    <app-assets [type]="'asset'" (assetSelected)="onAssetSelected($event)"></app-assets>
+  </section>
+
+  <!-- Sub-Class Buttons -->
+  <section class="selector-section">
+    <h2>Select Sub Class</h2>
+    <app-assets
+      [type]="'subclass'"
+      [subClasses]="subClasses"
+      (subClassSelected)="onSubClassSelected($event)">
+    </app-assets>
+  </section>
+
+  <!-- Products Table -->
+  <section class="products-section">
+    <h2>Products</h2>
+    <app-products
+      [selectedAssetClass]="selectedAssetClass"
+      [selectedSubClass]="selectedSubClassName">
+    </app-products>
+  </section>
+</div>
