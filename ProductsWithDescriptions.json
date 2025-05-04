@@ -1,0 +1,213 @@
+{
+  "Equity": {
+    "Large Cap": [
+      {
+        "product_name": "BlueChip Fund A",
+        "asset_class": "Equity",
+        "sub_asset_class": "Large Cap",
+        "annual_return": 10.0,
+        "liquidity": "High",
+        "pros": [
+          "Stable returns",
+          "Low risk"
+        ],
+        "cons": [
+          "Lower growth"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 0,
+        "description": "A low-risk fund investing in established blue-chip companies offering stable returns."
+      },
+      {
+        "product_name": "Index Fund B",
+        "asset_class": "Equity",
+        "sub_asset_class": "Large Cap",
+        "annual_return": 9.2,
+        "liquidity": "High",
+        "pros": [
+          "Diversified",
+          "Low cost"
+        ],
+        "cons": [
+          "Market dependent"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 0,
+        "description": "Tracks major indices, providing diversified exposure with low management cost."
+      }
+    ],
+    "Mid Cap": [
+      {
+        "product_name": "Mid Cap Growth A",
+        "asset_class": "Equity",
+        "sub_asset_class": "Mid Cap",
+        "annual_return": 12.5,
+        "liquidity": "Medium",
+        "pros": [
+          "High growth potential"
+        ],
+        "cons": [
+          "Volatile"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0,
+        "description": "Targets growing mid-sized companies with high return potential but increased risk."
+      },
+      {
+        "product_name": "MidCap Blend B",
+        "asset_class": "Equity",
+        "sub_asset_class": "Mid Cap",
+        "annual_return": 11.0,
+        "liquidity": "Medium",
+        "pros": [
+          "Balanced approach"
+        ],
+        "cons": [
+          "Moderate risk"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 0,
+        "description": "Balances growth and risk by investing in a mix of mid-cap stocks."
+      }
+    ],
+    "Small Cap": [
+      {
+        "product_name": "SmallCap Aggressive A",
+        "asset_class": "Equity",
+        "sub_asset_class": "Small Cap",
+        "annual_return": 14.0,
+        "liquidity": "Medium",
+        "pros": [
+          "High return potential"
+        ],
+        "cons": [
+          "Very volatile"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0,
+        "description": "An aggressive fund focusing on small companies with strong growth prospects."
+      },
+      {
+        "product_name": "Emerging Companies B",
+        "asset_class": "Equity",
+        "sub_asset_class": "Small Cap",
+        "annual_return": 13.2,
+        "liquidity": "Low",
+        "pros": [
+          "Growth stocks"
+        ],
+        "cons": [
+          "Liquidity risk"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0,
+        "description": "Invests in emerging businesses offering growth but with limited liquidity."
+      }
+    ]
+  },
+  "Fixed Income": {
+    "Gov Bonds": [
+      {
+        "product_name": "Government Bond A",
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Gov Bonds",
+        "annual_return": 5.0,
+        "liquidity": "Low",
+        "pros": [
+          "Very safe",
+          "Guaranteed return"
+        ],
+        "cons": [
+          "Low return"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 0,
+        "description": "Safe investment backed by the government, ideal for conservative investors."
+      },
+      {
+        "product_name": "Sovereign Bond B",
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Gov Bonds",
+        "annual_return": 4.8,
+        "liquidity": "Low",
+        "pros": [
+          "Stable income"
+        ],
+        "cons": [
+          "Interest rate sensitive"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 0,
+        "description": "Government-issued bond offering steady income with minimal default risk."
+      }
+    ],
+    "Corp Bonds": [
+      {
+        "product_name": "Corporate Bond X",
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Corp Bonds",
+        "annual_return": 6.8,
+        "liquidity": "Medium",
+        "pros": [
+          "Better return"
+        ],
+        "cons": [
+          "Company risk"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 0,
+        "description": "Offers higher returns than government bonds with moderate corporate risk."
+      },
+      {
+        "product_name": "Private Corp Bond Y",
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Corp Bonds",
+        "annual_return": 7.1,
+        "liquidity": "Medium",
+        "pros": [
+          "Good yield"
+        ],
+        "cons": [
+          "Credit risk"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0,
+        "description": "High-yield bond from private corporations with higher associated credit risk."
+      }
+    ],
+    "Fixed Dep": [
+      {
+        "product_name": "Fixed Deposit A",
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Fixed Dep",
+        "annual_return": 5.5,
+        "liquidity": "High",
+        "pros": [
+          "Capital safety"
+        ],
+        "cons": [
+          "Low returns"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 0,
+        "description": "Bank deposit product ensuring principal safety and steady but lower returns."
+      },
+      {
+        "product_name": "Bank FD B",
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Fixed Dep",
+        "annual_return": 5.7,
+        "liquidity": "High",
+        "pros": [
+          "Easy access"
+        ],
+        "cons": [
+          "Taxable"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 0,
+        "description": "Secure savings product offering fixed interest and high liquidity."
+      }
+    ]
+  }
+}
