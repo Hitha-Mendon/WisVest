@@ -1,0 +1,29 @@
+<div class="charts">
+  <!-- Asset Class Pie Chart (Static) on the Left -->
+  <!-- <div class="chart-box">
+    <canvas baseChart
+      [data]="{
+        labels: assetClassLabels,
+        datasets: [{ data: assetClassData }]
+      }"
+      [type]="assetClassType"
+      [options]="pieChartOptions">
+    </canvas>
+    <p class="chart-label">Asset Class Allocation</p>
+  </div> -->
+
+  <!-- Subcategory Pie Chart (Dynamic) on the Right -->
+  <div class="chart-box">
+    <canvas baseChart
+      [data]="{
+        labels: subCategoryLabels,
+        datasets: [{ data: subCategoryData ,
+          backgroundColor: subCategoryColors,
+          hoverBackgroundColor: ['#2980b9', '#c0392b'],
+        }]
+      }"
+      [type]="subCategoryType"
+      [options]="pieChartOptions">
+    </canvas>
+  </div>
+</div>
